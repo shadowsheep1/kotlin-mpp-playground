@@ -1,3 +1,5 @@
+package foo
+
 import org.junit.Test
 
 class MockTest {
