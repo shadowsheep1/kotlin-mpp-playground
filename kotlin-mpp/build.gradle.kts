@@ -25,6 +25,25 @@ android {
         targetSdkVersion(rootProjectExt["targetSdkVersion"] as Int)
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    sourceSets {
+        getByName("main") {
+            manifest.srcFile("src/androidMain/AndroidManifest.xml")
+            java.srcDirs("src/androidMain/kotlin")
+            res.srcDirs("src/androidMain/res")
+        }
+        getByName("test") {
+            java.srcDirs("src/androidTest/kotlin")
+            res.srcDirs("src/androidTest/res")
+        }
+    }
+
+    // This is more stuff... just copied for references
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    testOptions.unitTests.isIncludeAndroidResources = true
 }
 
 dependencies {
