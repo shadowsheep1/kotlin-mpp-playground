@@ -46,12 +46,12 @@ kotlin {
 
     cocoapods {
         // Configure fields required by CocoaPods.
-        summary = "MBB Mobile and More Kotlin/Native module"
+        summary = "Mobile and More Kotlin/Native module"
         homepage = "https://www.shadowsheep.it"
     }
 
     iOSTarget("ios") {
-        // Changeing name is still not allowed
+        // Changing the framework name is still not allowed
         //https://youtrack.jetbrains.com/issue/KT-31542?_ga=2.135420210.2093573096.1575016813-841171207.1573547292
         // Add iOS framework setup here
         binaries {
