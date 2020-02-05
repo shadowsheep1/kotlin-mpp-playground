@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import kotlin_mpp
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let debugMsg = Platform().name
+        print("Hello, \(debugMsg)\n")
     }
 
 
