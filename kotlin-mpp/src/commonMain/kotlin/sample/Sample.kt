@@ -1,5 +1,7 @@
 package sample
 
+val myClass = MyClass()
+
 expect class Sample() {
     fun checkMe(): Int
 }

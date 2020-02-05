@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         print("Singleton (\(Singleton().self)): \(Singleton().printMyName())")
         print("MyClass: \(MyClass().printMyName())")
         print("MyClass (\(Singleton().self)): \(Singleton().myClass.printMyName())")
+        print("Platform (\(Singleton().self)): \(Singleton().platform)")
     }
 
 
