@@ -1,0 +1,16 @@
+PODS:
+  - kotlin_mpp (0.0.1)
+
+DEPENDENCIES:
+  - kotlin_mpp (from `../../kotlin-mpp`)
+
+EXTERNAL SOURCES:
+  kotlin_mpp:
+    :path: "../../kotlin-mpp"
+
+SPEC CHECKSUMS:
+  kotlin_mpp: e540df0873542ad92c6f0a095d61bb7bc3fdd4a8
+
+PODFILE CHECKSUM: 1aec1607511c9ef7b084a7b77a5aa0af6f33161a
+
+COCOAPODS: 1.8.4
