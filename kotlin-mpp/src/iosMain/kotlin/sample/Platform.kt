@@ -11,3 +11,7 @@ actual object Platform {
 actual class Sample actual constructor() {
     actual fun checkMe(): Int = 42
 }
+
+actual val expectGlobalVal: MyClass  by lazy {
+    MyClass()
+}
