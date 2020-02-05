@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let debugMsg = Platform().name
         print("Hello, \(debugMsg)\n")
+        print("Singleton: \(Singleton().printMyName())")
     }
 
 
