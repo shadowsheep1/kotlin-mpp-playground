@@ -12,8 +12,7 @@ target 'ios-kotlin-mpp' do
   pod 'kotlin_mpp', :path => '../../kotlin-mpp'
 
   # Firebase
-  pod 'Fabric', '~> 1.10.2'
-  pod 'Crashlytics', '~> 3.14.0'
+  pod 'Firebase/Crashlytics'
 
   # add the Firebase pod for Google Analytics
   pod 'Firebase/Analytics'

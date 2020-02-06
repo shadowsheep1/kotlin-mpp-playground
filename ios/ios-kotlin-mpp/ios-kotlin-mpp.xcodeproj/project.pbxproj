@@ -198,6 +198,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
 				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
 			);
 			name = "Run Script for Crashlytics dSYM";
@@ -207,7 +208,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#\"${PODS_ROOT}/FirebaseCrashlytics/run\" # <- for beta\n\"${PODS_ROOT}/Fabric/run\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\" # <- for beta\n#\"${PODS_ROOT}/Fabric/run\" # <- old Fabric+Crashlytics\n";
 		};
 		87154CB72109D6C9F526F023 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
