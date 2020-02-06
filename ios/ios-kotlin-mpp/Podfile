@@ -10,4 +10,9 @@ target 'ios-kotlin-mpp' do
 
   # Pods for ios-kotlin-mpp
   pod 'kotlin_mpp', :path => '../../kotlin-mpp'
+  
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
+  # add pods for any other desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
 end

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>978002802985-1veptnqo9b1i2onc4v7cq9mdgum1v5dc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.978002802985-1veptnqo9b1i2onc4v7cq9mdgum1v5dc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBis-HJP972XKFvcHjJ0S8898gF8mmc7JY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>978002802985</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>it.shadowsheep.mpp.ios-kotlin-mpp</string>
+	<key>PROJECT_ID</key>
+	<string>mlkit-playground-1be99</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mlkit-playground-1be99.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:978002802985:ios:9bad4abba146e86cabdf38</string>
+	<key>DATABASE_URL</key>
+	<string>https://mlkit-playground-1be99.firebaseio.com</string>
+</dict>
+</plist>
