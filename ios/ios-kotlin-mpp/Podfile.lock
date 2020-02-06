@@ -1,4 +1,7 @@
 PODS:
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
   - Firebase/Analytics (6.16.0):
     - Firebase/Core
   - Firebase/Core (6.16.0):
@@ -73,11 +76,15 @@ PODS:
   - PromisesObjC (1.2.8)
 
 DEPENDENCIES:
+  - Crashlytics (~> 3.14.0)
+  - Fabric (~> 1.10.2)
   - Firebase/Analytics
   - kotlin_mpp (from `../../kotlin-mpp`)
 
 SPEC REPOS:
   trunk:
+    - Crashlytics
+    - Fabric
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -97,6 +104,8 @@ EXTERNAL SOURCES:
     :path: "../../kotlin-mpp"
 
 SPEC CHECKSUMS:
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
   Firebase: 497158b816d0a86fc31babbd05546fcd7e6083ff
   FirebaseAnalytics: cf95d3aab897612783020fbd98401d5366f135ee
   FirebaseCore: 85064903ed6c28e47fec9c7bd149d94ba1b6b6e7
@@ -112,6 +121,6 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
 
-PODFILE CHECKSUM: 8f9c7f143372e6312e62bcee458cb014d1243186
+PODFILE CHECKSUM: 291cd20255a10a6a008b2ffae2d3b4f337a740d4
 
 COCOAPODS: 1.8.4
