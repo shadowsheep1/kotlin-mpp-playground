@@ -17,8 +17,9 @@ class ViewController: UIViewController {
         let debugMsg = Platform().name
         print("Hello, \(debugMsg)\n")
         print("Singleton (\(Singleton().self)): \(Singleton().printMyName())")
-        print("MyClass: \(MyClass().printMyName())")
+        print("MyClass: \(MyClass(platformName: Platform().name).printMyName())")
         print("MyClass (\(Singleton().self)): \(Singleton().myClass.printMyName())")
+        print("MyClass2 (\(Singleton().self)): \(Singleton().myClass2.printHerName())")
         print("Platform (\(Singleton().self)): \(Singleton().platform)")
     }
 

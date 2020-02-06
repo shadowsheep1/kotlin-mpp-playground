@@ -11,5 +11,5 @@ actual class Sample actual constructor() {
 }
 
 actual val expectGlobalVal: MyClass by lazy {
-    MyClass()
+    MyClass(Platform.name)
 }
